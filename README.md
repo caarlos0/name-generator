@@ -6,7 +6,7 @@ to generate names anywhere.
 You get a random name running:
 
 ```sh
-curl -s https://raw.githubusercontent.com/caarlos0/name-generator/master/run.sh | sh
+curl -sfL https://git.io/name-generator | sh
 ```
 
 > The source is the `run.sh` file in the root of this repo.
