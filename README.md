@@ -10,10 +10,13 @@ You get a random name running:
 curl -sfL https://git.io/name-generator | sh
 
 # get name from a serverless function:
-curl -sf https://name-generator.now.sh
+curl -sf https://names.caarlos0.dev
+
+# get name from a serverless function with a different separator:
+curl -sf 'https://names.caarlos0.dev?separator=-'
 
 # get name from a serverless function (json):
-curl -sf -H 'accept: application/json' https://name-generator.now.sh
+curl -sf -H 'accept: application/json' https://names.caarlos0.dev
 ```
 
 > The source is the `run.sh` file in the root of this repo.
